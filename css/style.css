@@ -1,0 +1,92 @@
+/* Common styles for all devices */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: url(../img/bg.jpg) no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  background: linear-gradient(rgb(193, 153, 153), rgb(194, 189, 214));
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+  background-color: rgb(194, 16, 16);
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(204, 199, 199);
+  transform: scale(1.1);
+}
+
+.snake {
+  background-color: rgb(205, 58, 208);
+  border: 0.25vmin solid rgb(17, 1, 1);
+  border-radius: 10px;
+  box-shadow: 0 0 3px black;
+}
+
+.food {
+  background-color: yellow;
+  border: 0.25vmin solid rgb(7, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+}
+
+#scoreBox,
+#hiscoreBox {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgb(6, 0, 0);
+}
+
+#scoreBox {
+  top: 17px;
+  right: 10px;
+}
+
+#hiscoreBox {
+  top: 70px;
+  right: 10px;
+}
+
+/* Media queries for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+  #board {
+    height: 80vmin;
+    width: 80vmin;
+  }
+
+  #scoreBox,
+  #hiscoreBox {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets and larger screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #board {
+    height: 60vmin;
+    width: 60vmin;
+  }
+}
+
+/* Desktop and larger screens */
+@media screen and (min-width: 1024px) {
+  #board {
+    height: 50vmin;
+    width: 50vmin;
+  }
+}
