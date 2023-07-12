@@ -36,7 +36,7 @@ You can customize certain aspects of the game by modifying the following files:
 -If you have any questions or feedback, feel free to reach out:
 
 Email: skannu30@example.com
-Project Link: https://github.com/Anmir12/task-manager
+Project Link: https://github.com/Anmir12/RetroSnakeGame
 
 ## Contributing
 
