@@ -3,7 +3,7 @@
 
 This is a simple Snake Game implemented in JavaScript, HTML, and CSS. The game allows the player to control a snake and eat food to grow longer. The objective is to avoid collisions with the snake's own body and the game boundaries.
 
-![Snake Game Screenshot](screenshot.png)
+
 
 ## Features
 
@@ -32,6 +32,11 @@ You can customize certain aspects of the game by modifying the following files:
 
 - `css/style.css`: Update the CSS styles to change the game's appearance.
 - `music/music.mp3`, `music/gameover.mp3`, `music/move.mp3`, `music/food.mp3`: Replace the audio files with your own.
+- Contact
+-If you have any questions or feedback, feel free to reach out:
+
+Email: skannu30@example.com
+Project Link: https://github.com/Anmir12/task-manager
 
 ## Contributing
 
